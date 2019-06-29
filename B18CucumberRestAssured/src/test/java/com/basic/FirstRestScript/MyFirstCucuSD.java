@@ -12,7 +12,7 @@ import io.restassured.response.Response;
 public class MyFirstCucuSD {
 	
 	Response res;
-	
+	//trying to commit
 	@Given("^user hit the get request$")
 	public void user_hit_the_get_request(){
 		res = RestAssured.given().get("https://www.google.com");
